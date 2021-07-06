@@ -24,7 +24,7 @@ public class AgeGuess {
 			}
 		}
 		
-		else System.out.print("You guessed correct!");
+		else System.out.print("You guessed correct!"); //if user guesses the correct age
 		
 	}
 }
