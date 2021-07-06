@@ -14,6 +14,7 @@ public class DistCalc {
 		System.out.println("Please enter y1");//prompts the user to enter y1
 		double y1 = scan.nextDouble();
 		System.out.println("y1= "+ y1); 
+		
 		System.out.println("Please enter x2");//prompts the user to enter x2
 		double x2 = scan.nextDouble();
 		System.out.println("x2= "+ x2); 
