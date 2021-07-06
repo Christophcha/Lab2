@@ -12,15 +12,19 @@ public class AgeGuess {
 		System.out.print("What is my age?"); //Prompts the user to guess my age
 		ageGuess = scan.nextInt();
 		
-		if(ageGuess != age) 
+		if(ageGuess != age) {
 			System.out.print("You guessed wrong, I am ");
-		if(ageGuess < age) 
-			System.out.print("Older!");
-		if(ageGuess > age) 
-			System.out.print("Younger!");
-		if(ageGuess == age)
-			System.out.print("You guess correct!");
+		
+			if(ageGuess < age) {
+			System.out.print("older!");
+			}
+			
+			if(ageGuess > age) {
+			System.out.print("younger!");
+			}
+		}
+		
+		else System.out.print("You guessed correct!");
 		
 	}
-
 }
