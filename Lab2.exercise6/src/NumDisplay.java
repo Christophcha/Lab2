@@ -7,7 +7,7 @@ public class NumDisplay {
 	int number;
 	Scanner scan = new Scanner (System.in);
 	
-	System.out.print("Enter a number between 0-9: ");
+	System.out.print("Enter a number between 0-9: "); //prompts user to enter a number
 	number = scan.nextByte();
 	
 	switch(number) {
@@ -42,7 +42,7 @@ public class NumDisplay {
 			System.out.print("Nine");
 			break;
 		default:
-			System.out.print("You have entered a number that isnt between 0-9, try again.");
+			System.out.print("You have entered a number that isnt between 0-9, try again."); //if user does not enter the correct number
 			break;
 	}
 	}
