@@ -15,7 +15,7 @@ public class AgeGuess {
 		ageGuess = scan.nextInt();
 		
 		if(ageGuess != age) {
-			System.out.print("You guessed wrong, I am ");
+			System.out.print("You guessed wrong, I am "); 
 		
 			if(ageGuess < age) {
 			System.out.print("older! I am " + age + " years old!");

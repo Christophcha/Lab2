@@ -13,7 +13,7 @@ public class AgeGuess {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.print("What is my age?"); //Prompts the user to guess my age
-		ageGuess = scan.nextInt();
+		ageGuess = scan.nextInt(); // Assigns next Int to ageGuess
 		
 		System.out.print("You guess that I am " + ageGuess + " but I am actually " + age + " years old!"); //Tells users what their guess was and my actual age
 

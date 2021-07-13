@@ -23,7 +23,7 @@ public class DistCalc {
 		double y2 = scan.nextDouble();
 		System.out.println("y2= "+ y2); 
 		
-		double beforeSqrt = Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2);
+		double beforeSqrt = Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2); //enters coordinates into equation
 		double sqrt = Math.sqrt(beforeSqrt);
 		
 		DecimalFormat fmt = new DecimalFormat("0.###"); // limits answer to 3 decimals

@@ -3,7 +3,6 @@ public class FloatEqu {
 
 	public static void main(String[] args) {
 		
-		
 		double x = (1.0/10) * (1.0/10);
 		double y = (1.0/100);
 		
